@@ -696,3 +696,14 @@ export const PiAgentIcon: Icon = ({ className, ...props }) => (
     <path fill="#fff" d="M517.36 400H634.72V634.72H517.36Z" />
   </svg>
 );
+
+export const OmpIcon: Icon = ({ className, ...props }) => (
+  <svg
+    {...props}
+    viewBox="0 0 24 24"
+    fill="none"
+    className={cn("fill-[#7C3AED] dark:fill-[#A78BFA]", className)}
+  >
+    <path d="M3 8h18a0 0 0 0 1 0 0v1a1 1 0 0 1-1 1h-2.5v8a0 0 0 0 1 0 0h-2a1 1 0 0 1-1-1v-7H10v7a1 1 0 0 1-1 1H7a0 0 0 0 1 0 0v-8a1 1 0 0 1 1-1h2.5V8H4a1 1 0 0 1-1-1V8Z" />
+  </svg>
+);

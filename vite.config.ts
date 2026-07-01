@@ -8,6 +8,9 @@ export default defineConfig({
       "~": NodeURL.fileURLToPath(new URL("./apps/web/src", import.meta.url)),
     },
   },
+  server: {
+    allowedHosts: ["notebook"],
+  },
   test: {
     environment: "node",
     exclude: [
